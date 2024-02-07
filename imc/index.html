@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal Imc</title>
+</head>
+<body>
+
+    <center>
+        <h1>Calculadora IMC</h1>
+
+        <input type="number" placeholder="Peso Em Kg" name="peso" id="peso"><br><br>
+        <input type="number" placeholder="Altura em M" name="altura" id="altura"><br><br>
+
+        <input type="button" value="Calcular" onclick="calcular()">
+    </center>
+    
+    <script>
+        function calcular(){
+            let peso =  document.getElementById('peso').value;
+            let altura =  document.getElementById('altura').value;
+            
+
+            console.log(peso)
+            let ress = peso/(altura*altura);
+
+            if(18.5>ress){
+                alert("Você está a baxio da media!");
+            }
+            else if(18,5 < ress && 24,99 > ress){
+                alert("Você está a no nivel normal!");
+            }
+            else if(25 < ress && 29,99 > ress){
+                alert("Você está acima do peso!");
+            }
+            else{
+                alert("Você está com obesidade..");
+            }
+        }
+    </script>
+</body>
+</html>
