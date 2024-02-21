@@ -1,0 +1,1 @@
+_ Toda vez que for mexer em um progama no terminar : npm i prompt-sync    /    const prompt = require('prompt-sync')()
