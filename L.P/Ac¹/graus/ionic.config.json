@@ -1,0 +1,7 @@
+{
+  "name": "graus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
