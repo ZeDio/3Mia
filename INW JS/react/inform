@@ -1,0 +1,7 @@
+npm create vite@latest
+nome-projeto
+React
+Js
+cd nome-projeto
+npm install 
+npm run dev 
