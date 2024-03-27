@@ -1,16 +1,13 @@
 function InfoPrincipal(){
     return(
-        <header>
-        <h1>Meu Site</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+        <>
+            <div class="personal-info">
+                <h2>Informações Pessoais</h2>
+                <p>Nome: José Diogo</p>
+                <p>Email: jose.diogo100407@gmail.com</p>
+                <p>Telefone: (11) 97537-2267</p>
+            </div>
+        </>
     )
 }
 export default InfoPrincipal
