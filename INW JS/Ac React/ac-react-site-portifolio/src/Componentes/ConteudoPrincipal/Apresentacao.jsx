@@ -1,18 +1,18 @@
 function Apresentacao(){
     return(
-        <section class="apresentacao" id="sobre">
-        <div class="apreJD">
+        <section className ="apresentacao" id="sobre">
+        <div className ="apreJD">
           <h2>
             Ola!!
           </h2>
           <p>Eu me chamo José Diogo, sou um progamador Front End e Desingner. Tenho 16 anos, tenho algumas esperiencias com progamação, e esperiencia como garçom. Estou no 3° ano do encisinio medio tecnico :D</p>
         </div>
 
-        <div class="apreDL">
+        <div className ="apreDL">
           <h2>
-            Lorem
+            oi...
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugiat! Quos consequatur quo, omnis quisquam minima quam repellat tempora ut sit ab maxime? Neque at a dolor, ullam ea fugiat.</p>
+          <p>Eu me chamo Diego Leite, diferente do meu amigo a cima front end, sou mais da area de back end, sei progamar mais em JS e C#..</p>
         </div>
       </section>
     )
