@@ -12,7 +12,7 @@ const Sobre = ()=>{
           <img src="/public/telefone.png" alt="png"/>
         </div>
       </div>
-      <div className="baixo">
+      <div className="baixoSobre">
         <BlocoBaixo/>
       </div>
     </main>
