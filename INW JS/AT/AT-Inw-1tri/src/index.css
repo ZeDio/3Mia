@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto Mono; color: rgba(51, 51, 51, 1);
+}
+
+.mainInfo{
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 100px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.cima{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.bloco1{
+  width: 550px;
+  height: 470px;
+}
+.bloco1 h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.bloco1 p{
+  font-size: 20px;
+  width: 410px;
+  margin-bottom: 40px;
+}
+.bloco1 .pp{
+  font-size: 18px;
+}
+.bloco1 button{
+  background-color: rgba(51, 51, 51, 1);
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  border-radius: 40px;
+  color: white;
+  font-size: 18px;
+}
+
+.baixo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+.baixo img{
+  width: 32px;
+  height: 32px;
+}
+.bloquiho{
+  width: 309px;
+  height: 360px;
+  padding: 16px 34px 16px 34px;
+  margin: 10px;
+  border-radius: 16px;
+}
+.bloquiho h1{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 15px;
+}
+.bloquiho h2{
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.bloquiho p{
+  font-size: 18px;
+}
+.bloquiho div{
+  display: flex;
+  justify-content: space-between;
+}
+.youtube{
+  background: rgba(241, 194, 176, 1);
+}
+.tiktok{
+  background: rgba(249, 235, 152, 1);
+}
+.facebook{
+  background: rgba(192, 217, 221, 1);
+}
+.instagram{
+  background: rgba(105, 117, 232, 1);
+}
+

@@ -1,13 +1,17 @@
-import './style/App.css'
+import Header from './Componentes/Header/index';
+import {Outlet} from 'react-router-dom';
 
 function App() {
-
+  const menuItems = [
+    { text: 'Home', link: '/' },
+    { text: 'Sobre', link: '/sobre' },
+    { text: 'Contato', link: '/contato' },
+  ];
   return (
-    <>
-    <div className='ContPRinc'>
-
-    </div>
-    </>
+        <>
+          <Header  menuItems={menuItems} />
+          <Outlet/>
+        </>
   )
 }
 
