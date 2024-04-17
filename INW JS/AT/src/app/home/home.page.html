@@ -29,7 +29,7 @@
       <ion-label>Leão</ion-label>
     </ion-item>
     <ion-item>
-      <ion-label>Gorila</ion-label>
+      <ion-label>pinguim</ion-label>
     </ion-item>
     <ion-item>
       <ion-label>pica-pau</ion-label>
@@ -42,37 +42,64 @@
 
   <ion-radio-group [(ngModel)] = "pergunta1">
     <p>Ele é um mamifero?</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <ion-radio value=1000 aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value=0 aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
   <ion-radio-group [(ngModel)] = "pergunta2">
     <p>ele é uma ave?</p>
-    <ion-radio value="" aria-label="Custom checkbox"></ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked"></ion-radio>
+    <ion-radio value="20000" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
   <ion-radio-group [(ngModel)] = "pergunta3">
-    <p>Sua dieta inclui uma variedade de alimentos, como peixes, roedores e insetos?</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <p>ele voa?</p>
+    <ion-radio value="100" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
-  <ion-radio-group [(ngModel)] = "pergunta3">
+  <ion-radio-group [(ngModel)] = "pergunta4">
     <p>Ele é conhecido por sua visão aguçada?</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <ion-radio value="100" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
-  <ion-radio-group [(ngModel)] = "pergunta3">
+  <ion-radio-group [(ngModel)] = "pergunta5">
     <p>São conhecidos por fazer ninhos dentro de arvores?</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
-  <ion-radio-group [(ngModel)] = "pergunta3">
+  <ion-radio-group [(ngModel)] = "pergunta6">
     <p>ele é vive na agua?</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <ion-radio value="550" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
-  <ion-radio-group [(ngModel)] = "pergunta3">
+  <ion-radio-group [(ngModel)] = "pergunta7">
     <p>ele anda em 4 pernas</p>
-    <ion-radio value="" aria-label="Custom checkbox">sim</ion-radio>
-    <ion-radio value="custom-checked" aria-label="Custom checkbox that is checked">não</ion-radio>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
   </ion-radio-group>
+  <ion-radio-group [(ngModel)] = "pergunta8">
+    <p>ele mora na africa</p>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
+  </ion-radio-group>
+  <ion-radio-group [(ngModel)] = "pergunta9">
+    <p>ele mora na antartica</p>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
+  </ion-radio-group>
+  <ion-radio-group [(ngModel)] = "pergunta10">
+    <p>ele mora na antartica</p>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
+  </ion-radio-group>
+  <ion-radio-group [(ngModel)] = "pergunta10">
+    <p>ele vive em cavernas?</p>
+    <ion-radio value="500" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
+  </ion-radio-group>
+  <ion-radio-group [(ngModel)] = "pergunta10">
+    <p>ele encherga no escuro?</p>
+    <ion-radio value="600" aria-label="Custom checkbox">sim</ion-radio>
+    <ion-radio value="0" aria-label="Custom checkbox that is checked">não</ion-radio>
+  </ion-radio-group>
+  <ion-button id="open-toast" expand="block" (click)="acertaranimal()">Pronto</ion-button>
+  <p >{{resp}}</p>
 </ion-content>
