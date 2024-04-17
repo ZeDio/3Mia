@@ -27,8 +27,23 @@ export class HomePage {
     if(this.soma == 2100){
       this.resp = "leão"
     }
-    if(this.soma == 1550){
+    else if(this.soma == 1550){
       this.resp = "baleia"
+    }
+    else if(this.soma == 21050){
+      this.resp = "pinguim"
+    }
+    else if(this.soma == 2500){
+      this.resp = "morcego"
+    }
+    else if(this.soma == 20200){
+      this.resp = "aguia"
+    }
+    else if(this.soma == 20800){
+      this.resp = "coruja"
+    }
+    else if(this.soma == 20600){
+      this.resp = "coruja"
     }
     else{
       this.resp = "não existe"
