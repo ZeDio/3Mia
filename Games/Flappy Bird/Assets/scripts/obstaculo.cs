@@ -5,7 +5,7 @@ using UnityEngine;
 public class obstaculo : MonoBehaviour
 {
     [SerializeField]    
-    private float velocidade = 0.6f;
+    private float velocidade = 0.9f;
 
     // Update is called once per frame
     void Update()
