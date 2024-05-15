@@ -1,13 +1,12 @@
-import Header from "./Componentes/Header"
-import Navbar from "./Componentes/Navbar"
+import Header from "./Componentes/Header/Header"
+import { Outlet } from "react-router-dom"
 
 function App() {
   
   return (
     <>
-      <Header>
-        <Navbar></Navbar>
-      </Header>
+      <Header></Header>
+      <Outlet/>
     </>
   )
 }
