@@ -9,7 +9,7 @@ public class geradorDeObstaculos : MonoBehaviour
     //Onde Criar? Na posição de gerador
     //Quando Criar? tempoParaGera
     [SerializeField]
-    private float tempoParaGerar = 3f;
+    private float tempoParaGerar = 6f;
     
     private float cronometro;
 
