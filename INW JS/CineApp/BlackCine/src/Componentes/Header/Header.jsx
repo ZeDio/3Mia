@@ -2,10 +2,10 @@ import Navbar from "../Navbar/Navbar";
 
 function Header() {
     return ( 
-        <header>
+        <header className="flex bg-primary-color text-white p-4 justify-between">
             <span>Olá, visitante!</span>
             <h1>Bem-vindo ao BlackCine</h1>
-            <Navbar></Navbar>
+            <Navbar/>
         </header>
         
      );
