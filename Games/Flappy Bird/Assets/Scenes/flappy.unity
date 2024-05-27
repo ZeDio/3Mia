@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 326b53f06fc5154428bdf8561875fdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 8
+  tempoParaGerar: 7
   modeloObstaculo: {fileID: 4794761252685988152, guid: 7cef98609914f2245bb9e5a39ed69205, type: 3}
 --- !u!1 &1087111420
 GameObject:
@@ -697,7 +697,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1584736183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,6 +710,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841ecfd8eca431248a52734abc9f138f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1879390361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879390363}
+  - component: {fileID: 1879390362}
+  m_Layer: 0
+  m_Name: gerarDeCandidatos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1879390362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879390361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326b53f06fc5154428bdf8561875fdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempoParaGerar: 15
+  modeloObstaculo: {fileID: 4794761252685988152, guid: 78517ea6e87e688499b92f8358e52c01, type: 3}
+--- !u!4 &1879390363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879390361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.71, y: -3.17, z: 0.10920042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042744194
 GameObject:
   m_ObjectHideFlags: 0
