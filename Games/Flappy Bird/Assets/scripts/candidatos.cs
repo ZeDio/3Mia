@@ -12,4 +12,13 @@ public class candidatos : MonoBehaviour
         this.transform.Translate(Vector3.right * velocidade * Time.deltaTime);
         this.transform.Translate(Vector3.up * Random.Range(-0.003f, 0.003f));
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        this.DestruirCandidato();
+    }
+
+    private void DestruirCandidato()
+    {
+        Destroy(this.gameObject);
+    }
 }
