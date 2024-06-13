@@ -16,22 +16,27 @@ function Filmes() {
     },[])
 
     return ( 
-        <>
-        <h1>Filmes</h1>
-        <div className="listaFilmes flex flex-row gap-3 flex-wrap">
-        {
-            filmes.map(
-                filme =>(
-                    <div className="card-filme" key={filme.id}>
-                        <img src={`https://image.tmdb.org/t/p/w92/${filme.poster_path}`}/>
-                        <h1>{filme.title}</h1>
-                        <Link to={`${filme.id}`} className="bg-purple-800">Saiba Mais</Link>
-                    </div>
+        <main className="flex flex-wrap justify-center">
+            <div>
+                <img src={`https://image.tmdb.org/t/p/original/${filmes[0].backdrop_path}`}/>
+            </div>
+
+            <div className="listaFilmes flex flex-row gap-3 flex-wrap mt-10 ml-3">
+            {
+                filmes.map(
+                    filme =>(
+                        <div className="group flex flex-col items-center" key={filme.id}>
+                            <Link to={`${filme.id}`}><img className="group-hover:opacity-30 rounded-lg" src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} alt="" /><img/></Link>
+                            <div className="w-8/12 flex flex-col text-center items-center text-white relative bottom-24">
+                                <h1 className="font-extrabold">{filme.title}</h1>
+                                <Link to={`${filme.id}`} className="bg-primary-color p-2 rounded-lg">Saiba Mais</Link>
+                            </div>
+                        </div>
+                    )
                 )
-            )
-        }
-        </div>
-        </>
+            }
+            </div>
+        </main>
      );
 }
 
