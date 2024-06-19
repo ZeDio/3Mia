@@ -21,7 +21,7 @@ function DetalhesFilme() {
         <>
             <div className="flex flex-wrap justify-center ">
                 <img src={`https://image.tmdb.org/t/p/w1280/${filme.backdrop_path}`}/>
-                <div className=" bg-primary-color text-white w-10/12 p-10 bottom-1.5 relative">
+                <div className=" bg-primary-color text-white w-10/12 p-10 bottom-10 relative">
                     <p className="text-3xl mb-2">{filme.title}</p>
                     <p>{filme.overview}</p>
                 </div>

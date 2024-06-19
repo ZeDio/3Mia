@@ -15,11 +15,19 @@ function Filmes() {
 
     },[])
 
+    console.log(filmes)
+
     return ( 
         <main className="flex flex-wrap justify-center">
-            <div>
-                <img src={`https://image.tmdb.org/t/p/original/${filmes[0].backdrop_path}`}/>
-            </div>
+            {filmes.length > 0 && (
+                <div>
+                    <img
+                        src={`https://image.tmdb.org/t/p/original/${filmes[Math.floor(Math.random() * filmes.length)].backdrop_path}`}
+                        alt="Backdrop"
+                    />
+                </div>
+            )}
+
 
             <div className="listaFilmes flex flex-row gap-3 flex-wrap mt-10 ml-3">
             {
